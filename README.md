@@ -7,10 +7,14 @@
 This app infers the political leaning of Twitter users ranging between Republican- and Democratic- leaning. You can see your identified learning or search for other Twitter users and check out theirs.
 This system is available at: https://twitter-app.mpi-sws.org/search-political-bias-of-users/
 
+![Search Political Leaning of Twitter Users](https://github.com/johnnatan-messias/bias_inference_api/blob/master/image/search-political-leaning-of-twitter-users.png)
+
 ### Split Search on Twitter ###
 
 This app lets you search for information on Twitter, and displays the results in two distinct lists which lean republican & democratic. Each search result also indicates the bias of its author.
 This system is available at: https://twitter-app.mpi-sws.org/search-bias-split-view/
+
+![Split Search on Twitter](https://github.com/johnnatan-messias/bias_inference_api/blob/master/image/split-search-on-twitter.png)
 
 ## How to run ##
 ----------
