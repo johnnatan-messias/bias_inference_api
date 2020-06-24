@@ -23,6 +23,8 @@ Execution:
 
 Our API is available for academic purposes only. If you're a researcher or a student you can request a token at https://forms.gle/YhgPgfeqYD45AcGZA
 
+![API Bias Inference](https://github.com/johnnatan-messias/bias_inference_api/blob/master/image/api-example.gif?raw=true)
+
 
 ## Ask a Question ##
 
