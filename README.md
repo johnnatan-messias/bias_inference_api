@@ -23,6 +23,8 @@ First, you should request for a token in the section below.
 Execution:
 `python demo.py`
 
+#### Note: Scores in the Twitter-app have been scaled (using max-min normalization) for visualization purposes and may not match the bias_score given by API.
+
 ## Access request ##
 
 Our API is available for academic purposes only. If you're a researcher or a student you can request a token at https://forms.gle/YhgPgfeqYD45AcGZA
