@@ -2,6 +2,9 @@
 
 ## Systems available ##
 
+
+#### Note: Scores in the Twitter-app have been scaled (using max-min normalization) for visualization purposes and may not match the bias_score given by API.
+
 ### Search Political Leaning of Twitter Users ###
 
 This app infers the political leaning of Twitter users ranging between Republican- and Democratic- leaning. You can see your identified learning or search for other Twitter users and check out theirs.
@@ -23,7 +26,6 @@ First, you should request for a token in the section below.
 Execution:
 `python demo.py`
 
-#### Note: Scores in the Twitter-app have been scaled (using max-min normalization) for visualization purposes and may not match the bias_score given by API.
 
 ## Access request ##
 
