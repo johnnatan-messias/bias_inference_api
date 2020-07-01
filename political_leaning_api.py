@@ -10,6 +10,7 @@ import traceback
 
 nerros_permited = 3
 
+
 class Political_Leaning:
     def __init__(self, token):
         self.api = "https://twitter-app.mpi-sws.org/search-political-bias-of-users/api/political_leaning.php"
@@ -21,7 +22,8 @@ class Political_Leaning:
         data = ','.join([str(id_) for id_ in friends_ids])
         try:
             while nerr < nerros_permited:
-                rq = requests.post(self.api, data=data, params=self.params, timeout=30)
+                rq = requests.post(self.api, data=data,
+                                   params=self.params, timeout=30)
                 if rq.status_code != 200:
                     nerr += 1
                 else:
@@ -32,11 +34,3 @@ class Political_Leaning:
             print("API ERROR\t" + str(e))
             print(traceback.print_exc())
         return ans
-
-    def get_info(self):
-        info = """API developed by:
-        Johnnatan Messias
-        e-mail: johnme@mpi-sws.org
-        Website: http://johnnatan.me
-        """
-        print(info)
