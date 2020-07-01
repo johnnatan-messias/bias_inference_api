@@ -26,7 +26,7 @@ First, you should request for a token in the section below.
 Execution:
 `python demo.py`
 
-#### The bias score is the score given by equation 5 in [IR paper](https://link.springer.com/article/10.1007/s10791-018-9341-2) (see equation below). Leaning is determined same as in the paper, <=-0.03 ---> rep, >= 0.03 ---> Dem, else neutral.
+#### The bias score is the score given by equation 5 in [IR paper](https://link.springer.com/article/10.1007/s10791-018-9341-2) (see equation below). Leaning is determined the same as in the paper, <=-0.03 ---> rep, >= 0.03 ---> Dem, else neutral.
 
 
 ![Equation 5 in IR paper](https://github.com/johnnatan-messias/bias_inference_api/blob/master/image/equation-bias-score.png)
